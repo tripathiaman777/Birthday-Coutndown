@@ -1,0 +1,91 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: /*url("https://content.thriveglobal.com/wp-content/uploads/2020/02/shaira-dela-pena-twoEJNpgdbI-unsplash-1.jpg?w=1550");*/
+    
+    url("https://images.unsplash.com/photo-1542489441-689de58e358e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 ");
+    opacity: 1;
+    background-position: center center;
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    color:rgb(116, 60, 148);
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid white; */
+align-items: center;
+padding-left: 20px;
+
+}
+
+.asset{
+    font-weight: bold;
+    padding-right: 40px;
+    padding-top: 30px;
+    font-size: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.minute-container, .second-container, .hour-container, .day-container {
+display: flex;
+
+flex-direction: column;
+align-items: center;
+}
+
+.small{
+    font-size: 30px;
+}
+
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+   /* color: rgb(95, 245, 8);*/
+    font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+/* justify-content: center; */
+align-items: center;
+/* border: 2px solid white; */
+/* background-color: black; */
+backface-visibility: hidden;
+padding-top: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  
+    .asset{
+    font-weight: bold;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.small{
+    font-size: 3rem;
+}
+
+.main-body{
+    font-size: 5rem;
+}
+
+
+}
